@@ -2,9 +2,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  HttpProductsServiceModule,
+  InMemoryProductsServiceModule,
   ProductListComponentModule,
-} from '../../../../projects/products/src';
+} from '@products';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     HttpClientModule,
     ProductListComponentModule,
-    HttpProductsServiceModule,
+    InMemoryProductsServiceModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

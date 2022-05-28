@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "query-training": "apps/query-training",
-    "query-training-e2e": "apps/query-training-e2e"
+    "query-training-e2e": "apps/query-training-e2e",
+    "products": "libs/products"
   }
 }
