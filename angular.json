@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "query-training": "apps/query-training",
+    "query-training-e2e": "apps/query-training-e2e"
+  }
+}
